@@ -1,22 +1,13 @@
 
 Example:
 
-renderItem=({item})=>{
-        return (
-            <View style={{ height: '100%', width: '100%'}}>
-                <Image style={{ height: '100%', width: '100%'}} source={{uri:item}} >
-
-                </Image>
-            </View>
-        );
-    }
                                 <SliderBox
                                 renderItem={item => this.renderItem(item)}
                                 images={this.state.images}
                                 onCurrentImagePressed={index =>
                                     console.warn(`image ${index} pressed`)
                                 }
-                            />
+                                 />
 
 
 
