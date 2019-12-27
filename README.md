@@ -1,4 +1,4 @@
-/*****************/
+
 Example:
 
 renderItem=({item})=>{
@@ -10,14 +10,14 @@ renderItem=({item})=>{
             </View>
         );
     }
-    
-  <SliderBox
-        renderItem={item => this.renderItem(item)}
-        images={this.state.images}
-        onCurrentImagePressed={index =>
-         console.warn(`image ${index} pressed`) }
-               />
-/*****************/
+                                <SliderBox
+                                renderItem={item => this.renderItem(item)}
+                                images={this.state.images}
+                                onCurrentImagePressed={index =>
+                                    console.warn(`image ${index} pressed`)
+                                }
+                            />
+
 
 
 # react-native-image-slider-box
